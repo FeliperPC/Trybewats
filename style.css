@@ -21,11 +21,19 @@ main{
 #trybewarts-forms-logo{
     height : 500px;
 }
-#name-lastName{
+#name-lastName-container{
     display: flex;
     flex-flow: row wrap;
 }
-#email-house{
+#email-house-container{
     display: flex;
     flex-flow: row wrap;
+}
+#family-container{
+    display: flex;
+    flex-direction: column;
+}
+#content-container{
+    display: flex;
+    flex-direction: column;
 }
